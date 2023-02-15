@@ -25,7 +25,7 @@ public interface IListWithNode<T> {
      * @param node - the node to remove
      * @throws IllegalArgumentException "removeNode given null input" when the input node is null
      */
-    public void removeNode(Node<T> node);
+   public void removeNode(Node<T> node);
 
     /**
      * Removes a node from the list given an item to be removed.
